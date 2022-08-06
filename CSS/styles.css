@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url("../assets/bg.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+/* Styles for navbar */
+
+#nav-container{
+    height: 10vh;
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.nav-logo{
+    float: left;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.nav-list{
+    float: right;
+    width: 70%;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2%;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav-link{
+    list-style: none;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.call-us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.call-us-icon{
+    padding-right: 3%;
+}
+
+.call-us-text{
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+/* Styles for Content Div */
+
+.content{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #ffffff;
+}
+
+.content-heading{
+    margin-top: 9%;
+    margin-left: 3%;
+    font-size: 5rem;
+}
+
+.content-btn{
+    padding: 2% 6%;
+    margin-top: 4%;
+    margin-left: 3%;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.short-div-1{
+    position: absolute;
+    top: -23%;
+    right: 15%;
+    padding: 1%;
+}
+
+.img-back{
+    width: 100px;
+    height: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.puz-img{
+    height: 40px;
+    width: 40px;
+    margin-left: 25%;
+}
+
+.short-div-2{
+    position: absolute;
+    top: 75%;
+    right: 30%;
+    padding: 1%;
+}
+
+.bulb-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 25%;
+}
+
+.bgc{
+    background-color: rgba(229, 228, 226, 0.2);
+}
+
+.dimensions{
+    width: 300px;
+    height: 150px;
+}
+
+.short-div-content{
+    margin-top: 5%;
+    margin-left: 3%;
+}
