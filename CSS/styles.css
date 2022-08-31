@@ -49,6 +49,10 @@ body{
     list-style: none;
 }
 
+.bars-img{
+    display: none;
+}
+
 a{
     font-size: 20px;
     text-decoration: none;
@@ -145,4 +149,87 @@ a{
 .short-div-content{
     margin-top: 5%;
     margin-left: 3%;
+}
+
+/* Styles for mobile screen */
+/* Here break point is 1230px */
+
+@media screen and (max-width:1230px) {
+    
+    *{
+        margin: 0;
+
+    }
+
+    /* styles for navbar */
+
+    #nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 5%;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    #br-tag{
+        display: none;
+    }
+
+    .bars-img{
+        display: inline;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* styles for content */
+
+    .revert{
+        all: revert;
+    }
+
+    .bgc{
+        background-color: rgba(229, 228, 226, 0.2);
+    }
+    
+    .dimensions{
+        width: 300px;
+        height: 150px;
+    }
+
+    .short-div-content{
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+
+    .img-back{
+        width: 100px;
+        height: 50px;
+        margin-left: 2%;
+        margin-top: 2%;
+        border-radius: 25px;
+        background-color: #fff;
+    }    
+
+    .bulb-img{
+        height: 50px;
+        width: 50px;
+        margin-left: 25%;
+    }
+
+    .puz-img{
+        height: 40px;
+        width: 40px;
+        margin-left: 25%;
+    }
+
+    .short-divs{
+        margin-top: 5%;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
 }
